@@ -1,0 +1,225 @@
+{
+ "app": "org-board",
+ "version": 2,
+ "exportedAt": "2026-10-14T07:56:24.000Z",
+ "title": "Org Board",
+ "depts": [
+  {
+   "id": "exec",
+   "name": "สายบริหาร",
+   "desc": "CEO, Operation Manager และหัวหน้าสายงาน",
+   "color": 1,
+   "order": 1
+  },
+  {
+   "id": "ops",
+   "name": "ปฏิบัติการสาขา",
+   "desc": "Store Leader และทีมหน้าร้านทุกสาขา",
+   "color": 2,
+   "order": 2
+  },
+  {
+   "id": "brand",
+   "name": "Brand & Marketing",
+   "desc": "Brand Manager และสื่อสารการตลาด",
+   "color": 3,
+   "order": 3
+  },
+  {
+   "id": "ck",
+   "name": "Central Kitchen & Warehouse",
+   "desc": "ครัวกลาง คลังสินค้า และควบคุมคุณภาพ",
+   "color": 4,
+   "order": 4
+  },
+  {
+   "id": "sup",
+   "name": "สนับสนุน",
+   "desc": "ซ่อมบำรุง IT/POS และงานธุรการ",
+   "color": 5,
+   "order": 5
+  }
+ ],
+ "people": [
+  {
+   "id": "ceo",
+   "name": "",
+   "role": "CEO",
+   "dept": "exec",
+   "parent": "",
+   "photo": "",
+   "order": 1
+  },
+  {
+   "id": "chanon",
+   "name": "Chanon Mancharoen",
+   "role": "Operation Manager",
+   "dept": "exec",
+   "parent": "ceo",
+   "photo": "",
+   "order": 2
+  },
+  {
+   "id": "head-ops",
+   "name": "",
+   "role": "หัวหน้าปฏิบัติการสาขา",
+   "dept": "ops",
+   "parent": "chanon",
+   "photo": "",
+   "order": 3
+  },
+  {
+   "id": "head-brand",
+   "name": "",
+   "role": "หัวหน้า Brand & Marketing",
+   "dept": "brand",
+   "parent": "chanon",
+   "photo": "",
+   "order": 4
+  },
+  {
+   "id": "head-ck",
+   "name": "",
+   "role": "Central Kitchen Manager",
+   "dept": "ck",
+   "parent": "chanon",
+   "photo": "",
+   "order": 5
+  },
+  {
+   "id": "head-sup",
+   "name": "",
+   "role": "หัวหน้าทีมสนับสนุน",
+   "dept": "sup",
+   "parent": "chanon",
+   "photo": "",
+   "order": 6
+  },
+  {
+   "id": "sl-sathorn",
+   "name": "",
+   "role": "Store Leader – Sathorn",
+   "dept": "ops",
+   "parent": "head-ops",
+   "photo": "",
+   "order": 7
+  },
+  {
+   "id": "sl-asoke",
+   "name": "",
+   "role": "Store Leader – Asoke",
+   "dept": "ops",
+   "parent": "head-ops",
+   "photo": "",
+   "order": 8
+  },
+  {
+   "id": "sl-ekkamai",
+   "name": "",
+   "role": "Store Leader – Ekkamai",
+   "dept": "ops",
+   "parent": "head-ops",
+   "photo": "",
+   "order": 9
+  },
+  {
+   "id": "sl-pattaya",
+   "name": "",
+   "role": "Store Leader – Pattaya",
+   "dept": "ops",
+   "parent": "head-ops",
+   "photo": "",
+   "order": 10
+  },
+  {
+   "id": "bm-eh",
+   "name": "",
+   "role": "Brand Manager – Easy Health",
+   "dept": "brand",
+   "parent": "head-brand",
+   "photo": "",
+   "order": 11
+  },
+  {
+   "id": "bm-lp",
+   "name": "",
+   "role": "Brand Manager – Lucky Panda",
+   "dept": "brand",
+   "parent": "head-brand",
+   "photo": "",
+   "order": 12
+  },
+  {
+   "id": "bm-eb",
+   "name": "",
+   "role": "Brand Manager – Easy Burger",
+   "dept": "brand",
+   "parent": "head-brand",
+   "photo": "",
+   "order": 13
+  },
+  {
+   "id": "marcom",
+   "name": "",
+   "role": "Marketing Communications",
+   "dept": "brand",
+   "parent": "head-brand",
+   "photo": "",
+   "order": 14
+  },
+  {
+   "id": "ck-sup",
+   "name": "",
+   "role": "Kitchen Supervisor",
+   "dept": "ck",
+   "parent": "head-ck",
+   "photo": "",
+   "order": 15
+  },
+  {
+   "id": "wh-sup",
+   "name": "",
+   "role": "Warehouse Supervisor",
+   "dept": "ck",
+   "parent": "head-ck",
+   "photo": "",
+   "order": 16
+  },
+  {
+   "id": "qc",
+   "name": "",
+   "role": "QC / Production",
+   "dept": "ck",
+   "parent": "head-ck",
+   "photo": "",
+   "order": 17
+  },
+  {
+   "id": "jack",
+   "name": "Jack",
+   "role": "Maintenance Coordinator",
+   "dept": "sup",
+   "parent": "head-sup",
+   "photo": "",
+   "order": 18
+  },
+  {
+   "id": "karn",
+   "name": "Karn",
+   "role": "IT / POS Support",
+   "dept": "sup",
+   "parent": "head-sup",
+   "photo": "",
+   "order": 19
+  },
+  {
+   "id": "admin",
+   "name": "",
+   "role": "Admin / Procurement",
+   "dept": "sup",
+   "parent": "head-sup",
+   "photo": "",
+   "order": 20
+  }
+ ]
+}
